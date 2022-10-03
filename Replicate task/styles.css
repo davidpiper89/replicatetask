@@ -183,4 +183,96 @@ body {
     bottom: 25px;
     right: 25px;
   }
+}
+@media only screen and (min-width: 376px) and (max-width: 1439px) {
+  body {
+    background-color: #F2F2F2;
+  }
+  .responsive {
+    display: flex;
+    justify-content: center;
+  }
+  .header {
+    max-width: 540px;
+    background-color: #F2F2F2;
+    margin-bottom: 60px;
+    margin-right: 0px;
+    margin-top: 80px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+    background-color: #F2F2F2;
+    justify-content: center;
+  }
+  div h1 {
+    font-family: lp;
+    font-size: 36px;
+    font-weight: lighter;
+    text-align: left;
+    margin-left: 48px;
+    letter-spacing: 0.17px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  div h2 {
+    font-size: 2.25em;
+    font-weight: 600;
+    text-align: center;
+    margin: 0%;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+  }
+  .header p {
+    font-size: 15px;
+    text-align: center;
+    margin: 0%;
+    opacity: 0.5;
+  }
+  div h3 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .card {
+    border-top-style: outset;
+    border-radius: 1.75%;
+    border-width: 4px;
+    position: relative;
+    max-width: 318px;
+    background-color: white;
+    font-size: 20px;
+    padding-top: 32px;
+    padding-left: 32px;
+    margin-right: 28px;
+    box-shadow: 10px 15px 20px #b9b9b9;
+  }
+  .card.super {
+    border-color: #00C8C8;
+    margin-top: 140px;
+  }
+  .card.team {
+    border-color: #FF637B;
+    margin-bottom: 28px;
+  }
+  .card.karma {
+    border-color: #FDBF00;
+  }
+  .card.calc {
+    border-color: #377FD2;
+    margin-top: 140px;
+  }
+  .card p {
+    font-size: 13px;
+    -ms-text-kashida-space: 254px;
+    margin: 0;
+    line-height: 23px;
+    opacity: 0.5;
+    padding-bottom: 136px;
+  }
+  img {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+  }
 }/*# sourceMappingURL=styles.css.map */
